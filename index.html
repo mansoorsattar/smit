@@ -3,101 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>positivus</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar started  -->
-    <header>
-        <nav class="container">
-          <div class="mobile-bar">
-            <a href="#" class="logo">
-              <img src="./assets/images/Icon.svg" alt="Postivus Icon" />
-              <img src="./assets/images/Positivus.svg" alt="Postivus" />
-            </a>
-            <button id="menu_btn" class="menu_btn">
-            </button>
-          </div>
-          <ul id="nav_menu">
-            <div class="mobile-bar">
-              <a href="#" class="logo">
-                <img src="./assets/images/Icon.svg" alt="Postivus Icon" />
-                <img src="./assets/images/Positivus.svg" alt="Postivus" />
-              </a>
-              <button id="menu_btn" class="menu_btn">
-                <span id="cross_btn"> X </span>
-              </button>
-            </div>
-            <li><a href="#about_us">About us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#case_studies">Use Cases</a></li>
-            <li><a href="#things">Pricing</a></li>
-            <li><a href="#working_process">Blog</a></li>
-            <li><button>Request a quote</button></li>
-          </ul>
-        </nav>
-      </header>
-      <!-- nav bar ended -->
+    <div class="container-1">
+        <h1>Todo App</h1>
+    </div>
+    
+  <div class="container-2"> 
+    <input type="text" placeholder="Enter Todo" id="todo">
+    <button onclick="addTodo()">Add Todo</button>
+</div> 
+    
 
-      <!-- Hero Section started -->
-      <main class="container">
-        <!-- about us  -->
-        <section id="about_us">
-          <aside>
-            <h1>Navigating the digital landscape for success</h1>
-            <p>
-              Our digital marketing agency helps businesses grow and succeed
-              online through a range of services including SEO, PPC, social media
-              marketing, and content creation.
-            </p>
-            <button id="consultationBtn" class="btn">Book a consultation</button>
-          </aside>
-          <aside id="figure_img">
-            <figure>
-              <img src="./assets/images/about_us.svg" alt="About us photo" />
-            </figure>
-          </aside>
-        </section>
-      <!-- Hero Section Ended -->
-
-      <!-- Logos Section Start -->
-      <section id="logos">
-        <ul>
-          <li>
-            <a href="#">
-              <img src="./assets/images/logos/amazon.svg" alt="Amazon" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./assets/images/logos/drible.svg" alt="Drible" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./assets/images/logos/hubspot.svg" alt="Hubspot" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./assets/images/logos/notion.svg" alt="Notion" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./assets/images/logos/netflix.svg" alt="Netflix" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./assets/images/logos/zoom.svg" alt="Zoom" />
-            </a>
-          </li>
-        </ul>
-      </section>
-       <!-- Logos Section Ended -->
+<div>
+    <ol></ol>
+</div>
+    
+    
+    <script src="app.js"></script>
 </body>
 </html>
